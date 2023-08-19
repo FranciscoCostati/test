@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FranciscoCostati/test/issues"
   },
-  "homepage": "https://github.com/FranciscoCostati/test#readme"
+  "homepage": "https://github.com/FranciscoCostati/test#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.0"
+  }
 }
