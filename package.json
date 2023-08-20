@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "sudo nodemon -e ts,json,mustache src/server.ts" 
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/FranciscoCostati/test#readme",
   "devDependencies": {
+    "@types/mustache-express": "^1.2.2",
     "@types/node": "^20.5.0"
   },
   "description": "",
