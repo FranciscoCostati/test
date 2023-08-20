@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FranciscoCostati/test#readme",
   "devDependencies": {
+    "@types/mustache-express": "^1.2.2",
     "@types/node": "^20.5.0"
   },
   "description": "",
