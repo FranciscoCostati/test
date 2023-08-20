@@ -8,3 +8,4 @@ server.get("/voo/:origem-:destino", (req: Request, res: Response) => {
 });
 
 server.listen(80);
+
