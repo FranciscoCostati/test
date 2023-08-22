@@ -3,7 +3,7 @@ import mustache from "mustache-express"; //importa Template Engins Mustache
 import path from "path"; // para indicar diretório absoluto
 import varMainRoutes from "./routes/index"; //importa o arquivo de paths para a variavel varMainRoutes
 
-const server = express(); //salva express em constante server para ser usado
+const server = express(); //salva express na constante server para ser usado
 
 server.set("view engine", "mustache"); // seta view com mustache
 server.set("views", path.join(__dirname, "views")); //indica pasta que estarão os arquivos HTML
