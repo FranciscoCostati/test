@@ -5,7 +5,7 @@ const router = Router();
 router.get("/", (req: Request, res: Response)=>{ 
     let user = {
         name: "Laerte",
-        age: "19 anos" 
+        age: "19 anos"
     };
 
     res.render("home", { //renderiza a pasta Home (com os arquivos mustache/html)
