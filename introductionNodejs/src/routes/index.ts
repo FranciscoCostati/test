@@ -5,7 +5,7 @@ const router = Router();
 router.get("/", (req: Request, res: Response)=>{ 
     let user = {
         name: "Laerte",
-        age: "19 anos" 
+        age: "19 anos"
     };
 
     res.render("home", { //renderiza a pasta Home (com os arquivos mustache/html)
@@ -13,8 +13,8 @@ router.get("/", (req: Request, res: Response)=>{
     })
 });
 
-router.get("/contato", (req: Request, res: Response)=>{ // exibe na tela Formulario de contato
-    res.send("Formulario de contato")
+router.get("/contato", (req: Request, res: Response)=>{ 
+    res.send("Formulario de contato") // exibe na tela o Formulario de contato
 });
 
 router.get("/sobre", (req: Request, res: Response)=>{
